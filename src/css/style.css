@@ -1,0 +1,66 @@
+.app{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background-color: #C4C4C4;
+    box-sizing: border-box;
+    padding: 60px 80px;
+    width: 660px;
+}
+.custom-input{
+    border: none;
+    box-sizing: border-box;
+    font-size: 48px;
+    padding: 3px 10px;
+    width: 100%;
+}
+.custom-input:focus{
+    box-shadow: 0 0 1px 1px inset;
+    outline: none;
+}
+.autocomplete-block{
+    min-height: 220px;
+}
+.autocomplete-item{
+    background-color: #e3e3e3;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    height: 44px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: left;
+    width: 100%;
+}
+.result-block{
+    margin-top: 45px;
+}
+.result-item{
+    background-color: #e27beb;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px 10px;
+    position: relative;
+}
+.close-btn{
+    background: url("../assets/close.svg")  no-repeat;
+    background-size: contain;
+    border: none;
+    display: block;
+    height: 42px;
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+}
+.close-btn:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px blue);
+}
